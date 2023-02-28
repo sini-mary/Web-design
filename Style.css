@@ -164,11 +164,8 @@
 
 }
 .mordern{
-    
-    padding-left: 20%;
-    flex: left;
-    margin: 3%;
-    background-color: burlywood;
+   
+    width: 100%;
 
 }
 .header{
@@ -186,7 +183,9 @@
     
 }.
 .image7{
-    width: 15%;
+
+    padding-left: 50%;
+    
 
 
 }
@@ -198,18 +197,20 @@ border-style: hidden;
 padding: 50px;
 height: 450px;
 display: flex;
-background-color: #ffe5d6;
+background-color: orange;
 padding-right: 10px;
 }
 .image7{
     padding-left: 50%;
+    height: 50%;
+    width: 70px;
     
 }
 .box{
     margin-bottom: 20%;
-    width: 100%;
+    width: 50%;
     border-radius: 50%;
-    background-color: #177a9b;
+    background-color: cornsilk;
     height: fit-content;
     text-align: center;
 
@@ -228,25 +229,29 @@ b5{
 .imagess{
     display: flex;
     background-color: #021116;
+    padding: 20px 20px 20px ;
 }
 #kamidris{
     height: 60%;
     width: 200px;
+    padding-left: 40px ;
 }
 #kam{
     height: 50%;
     width: 200px;
+    padding-left: 40px;
 }
 #idris{
     height:50% ;
     width: 200px; 
+    padding-left: 40px;
 }
 .image7{
     width:200px ;
     height: 60%;
     
 }
-image6.{
+.image6{
     float: left;
 }
 .list2{
@@ -272,12 +277,57 @@ image6.{
     padding-right: 10%;
     font:bolder;
 }
-#space{
-    width: 100%;
+
+
+#button5{
+    background-color: #ffac7d;
+    width: 70px; 
+
 }
-#side{
-    width: 100%;
+.words{
+    margin-top: 3%;
+    margin-right: 1%;
+
 }
-#kir{
-    width: 100%;
+.image9{
+    width: 30%;
+    height: 30%;
+    padding-right: 10%;
+}
+.image10{
+    width: 30%;
+    height: 30%;
+    padding-right: 10%;
+    
+}
+.image11{
+    width: 30%;
+    height: 30% ;
+    padding-right: 10%;
+}
+.sweet{
+    float: left;
+    display: inline-flexbox;
+    padding-left: 10%;
+    width: 50%;
+    margin-left: 10%;
+}
+.float{
+    display: flex;
+    padding: 5px 5px 5px;
+    
+}
+.s{
+ padding-right: 40%;
+ font-weight: 900;
+    
+}
+.n{
+    padding-right: 40%;
+    font-weight: 900;
+}
+.a{
+    padding-right: 70%;
+    margin-right: 30%;
+    font-weight: 900;
 }
