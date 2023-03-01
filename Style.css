@@ -1,16 +1,16 @@
 
 .container{
-    position: relative;
     width: 100%;
     height: 50%;
     display: inline-block;
-    text-align: center;
+    padding-left: 100;
+    margin: 0%;
 
 }
 .center{
-    position: absolute;
+    position:absolute;
     top: 8px;
-    left: 500px;
+    left: 300px;
     margin-right: 10%;
     
  
@@ -23,7 +23,7 @@
 .button{
     width: 250px;
     text-align: left;
-    border-radius: 10px;
+    border-radius: 3px;
     background-color: #ffe5d6;
     align-items: center;
     position: relative;
@@ -41,7 +41,7 @@
     text-align: center;
     position: absolute;
     font-size: xx-large;
-    color:antiquewhite ;
+    color:brown;
    
 
 }
@@ -49,8 +49,9 @@
     text-align: center;
     margin-right: 40%;
     padding-bottom: 100%;
-    color: black;
+    color: brown;
     font: bolder;
+    font-weight: 900;
 
 
 }
@@ -62,6 +63,8 @@
     top: 30px;
     color: #ffac7d;
     font: bold;
+    padding-bottom: 10px;
+    
 
 }
 .style{
@@ -138,7 +141,7 @@
     width: 100%;
     height: 200px;
     padding-left: 20px;
-    padding-bott: 20px;
+    
 }
 #home{
     margin-right: 20%;
@@ -149,11 +152,13 @@
    margin-right: 10%;
    color: black;
    font:bolder;
+   font-weight: 900;
 }
 .offers{
-    margin-right: 5%;
+    margin-right: 3%;
     color: black;
     font:bolder ;
+    
 }
 #Designs{
     color: #ffac7d;
@@ -183,9 +188,9 @@
     
 }.
 .image7{
-
-    padding-left: 50%;
-    
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
 
 
 }
@@ -194,16 +199,19 @@
 
 .container2{
 border-style: hidden;
-padding: 50px;
-height: 450px;
+padding: 50px ;
+height: 350px;
 display: flex;
-background-color: orange;
+background-color: #ffe5d6;
 padding-right: 10px;
 }
 .image7{
-    padding-left: 50%;
-    height: 50%;
-    width: 70px;
+margin-left: 50%;
+object-fit: cover;
+height: 100%;
+width: 100%;
+
+    
     
 }
 .box{
@@ -228,21 +236,20 @@ b5{
 }
 .imagess{
     display: flex;
-    background-color: #021116;
-    padding: 20px 20px 20px ;
+    padding: 20px 20px 20px;
 }
 #kamidris{
-    height: 60%;
+    height: 90%;
     width: 200px;
-    padding-left: 40px ;
+    padding-left: 250px ;
 }
 #kam{
-    height: 50%;
+    height: 90%;
     width: 200px;
     padding-left: 40px;
 }
 #idris{
-    height:50% ;
+    height: 90%;
     width: 200px; 
     padding-left: 40px;
 }
@@ -282,6 +289,7 @@ b5{
 #button5{
     background-color: #ffac7d;
     width: 70px; 
+    border-radius: 20px;
 
 }
 .words{
@@ -318,16 +326,73 @@ b5{
     
 }
 .s{
- padding-right: 40%;
+ padding-right: 30%;
  font-weight: 900;
-    
+ background-color: #ffe5d6;
+ border-radius: 20px;
+ width: 10px;
+ 
+ 
 }
 .n{
     padding-right: 40%;
     font-weight: 900;
+
 }
 .a{
-    padding-right: 70%;
-    margin-right: 30%;
+right:  10px;
+    margin-right: 20%;
     font-weight: 900;
 }
+.fa{
+
+padding: 3px;
+width: 10px;
+text-decoration: none;
+margin: 3px 3px 3px;
+padding: left 10px;
+color: brown;
+
+}
+.boxcell2{
+    height: 500px;
+    object-fit: cover;
+}
+.join{
+    text-align: center;
+}
+.lili{
+list-style-type: none;
+display: inline-block;
+justify-content: left;
+display: flex;
+padding-left: 20px 20px 20px;
+}
+.brand{
+    background-color: #002d3d;
+    padding-bottom: 20px;
+    height: 500px;
+}
+#button22{
+    padding-left: 500px;
+
+}
+#rustic{
+    padding-right: 5px;
+    color: #ffac7d;
+    margin-left:190px ;
+
+}
+#oak{
+    margin-left: 100px;
+    color: #ffac7d;
+}
+#scan{
+    margin-left: 90px;
+    color: #ffac7d;
+}
+
+    
+    
+   
+
